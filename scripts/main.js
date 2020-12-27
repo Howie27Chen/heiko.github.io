@@ -26,9 +26,9 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/pic_heiko_freshman.png') {
-        myImage.setAttribute('src', 'images/pic_heiko_senior.png');
+    if (mySrc === 'images/head_portrait_ok.png') {
+        myImage.setAttribute('src', 'images/head_portrait_blink.png');
     } else {
-        myImage.setAttribute('src', 'images/pic_heiko_freshman.png');
+        myImage.setAttribute('src', 'images/head_portrait_ok.png');
     }
 }
